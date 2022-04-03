@@ -1,0 +1,148 @@
+body {
+    margin: 0;
+    background-color: #000000;
+    font-family: monospace;
+}
+
+.header {
+    border-bottom: 3px solid aqua;
+}
+
+.header .container {
+    /* display: flex; */
+
+    justify-content: space-between;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+
+.header ul .item1 {
+    font-weight: bold;
+font-size: large;
+}
+
+ul {
+    color: brown;
+}
+
+.titulo {
+    color: aqua;
+    width: fit-content;
+}
+
+.navBar {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 300px;
+    padding: 0;
+    align-items: center;
+}
+
+.banner {
+    background-image: url("bg-jelly-fish-para-home.png");
+    height: fit-content;
+    color: #fff;
+    display: flex;
+}
+
+.banner .container p span {
+    font-weight: 1000;
+
+
+}
+
+.banner .container {
+    justify-content: center;
+    font-size: 36px;
+}
+.banner .container p{
+    width: 10%;
+}
+
+.social {
+    background-color: white;
+    display: flex;
+
+}
+
+.social .container .boxes .box img {
+    width: 170px;
+
+}
+
+.social .container .boxes {
+    display: flex;
+    
+}
+.box{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.miss{
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+.footer{
+    background-color: #130329;
+    height: 50px;
+    color: white;
+}
+.footer .container{
+  
+    display: flex;
+   justify-content: center;
+}
+a {
+text-decoration: none;
+color: white;
+}
+.banner .container .card{
+    background: rgba(255,255, 255, 0.1);
+    backdrop-filter: blur(10px);
+
+    height:fit-content;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    align-items: center;
+    border-radius: 6%;
+    margin: 30px;
+    padding: 10px;
+}
+.card h1{
+    font-size: 30px;
+}
+.card h4{
+    font-size: 20px;
+}
+.card input{
+    border: 
+    rgb(209, 200, 221)
+    solid 3px;
+    padding: 5px;
+    text-align: center;
+}
+.card button{
+    height: 30px;
+    width: 200px;
+    background: rgba(255,255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    margin-top: 25px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    font-family: monospace;
+    border-radius: 5px;
+    cursor: pointer;
+}
